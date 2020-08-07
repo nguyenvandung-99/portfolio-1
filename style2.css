@@ -1,0 +1,40 @@
+html, body {
+	background-color: hex(#e87875);
+  background-image: linear-gradient(45deg, #d46461 0%, #6395e5 35%, #78a9dc 72%, #d46461 100%);
+  margin: 0;
+  background-attachment: fixed;
+}
+
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {color:#00b6a8}
+a:active {text-decoration: none;}
+
+.link:hover{color:#ffffff;opacity:0.6;}
+
+.skill-1 { /*Novice*/
+	width: 25%;
+	padding: 0%;
+	text-align: center;
+}
+
+.skill-2 { /*Efficient*/
+	width: 50%;
+	padding: 0% 0% 0% 25%;
+	text-align: center;
+}
+
+.skill-3 { /*Advanced*/
+	width: 75%;
+	padding: 0% 0% 0% 50%;
+	text-align: center;
+}
+
+.skill-4 { /*Expert*/
+	width: 100%;
+	padding: 0% 0% 0% 75%;
+	text-align: center;
+}
+
